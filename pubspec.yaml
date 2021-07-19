@@ -2,7 +2,7 @@ name: sodium_web
 description: A new flutter plugin project .
 version: 0.0.1
 homepage: https://github.com/SushantChandla
-repository:
+repository: https://github.com/SushantChandla/sodium_web
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
