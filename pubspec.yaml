@@ -1,0 +1,30 @@
+name: sodium_web
+description: A new flutter plugin project .
+version: 0.0.1
+homepage: https://github.com/SushantChandla
+repository:
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  js: ^0.6.3
+  convert: ^3.0.1
+
+flutter:
+  plugin:
+    platforms:
+      web:
+        pluginClass: SodiumWeb
+        fileName: sodium_web.dart
+
