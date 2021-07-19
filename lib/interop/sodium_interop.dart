@@ -16,3 +16,4 @@ external Uint8List crypto_secretbox_open_easy(Uint8List c, Uint8List n, Uint8Lis
 external Uint8List crypto_sign_detached(Uint8List m, Uint8List sk);
 external Uint8List crypto_sign_ed25519_sk_to_seed(Uint8List sk);
 external dynamic crypto_sign_seed_keypair(Uint8List seed);
+external Uint8List  randombytes_buf(num length);

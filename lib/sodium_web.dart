@@ -41,6 +41,9 @@ class SodiumWeb {
   Uint8List cryptoSignEd25519SkToSeed(Uint8List sk){
     return interop.crypto_sign_ed25519_sk_to_seed(sk);
   }
+   Uint8List randombytesBuf(int length){
+    return interop.randombytes_buf(length);
+  }
 
   dynamic cryptoSignSeedKeypair(Uint8List seed){
     return interop.crypto_sign_seed_keypair(seed);

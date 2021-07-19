@@ -13,13 +13,11 @@ dependencies:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
+  js: ^0.6.3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  
-  js: ^0.6.3
-  convert: ^3.0.1
 
 flutter:
   plugin:
