@@ -1,6 +1,7 @@
 name: sodium_web
-description: A new flutter plugin project .
-version: 0.0.2
+description: 
+A new flutter plugin project for [libsodium](https://libsodium.gitbook.io/doc/) support on flutter web  with the help of [libsodium.js](https://github.com/jedisct1/libsodium.js/).
+version: 0.0.3
 homepage: https://github.com/SushantChandla
 repository: https://github.com/SushantChandla/sodium_web
 
@@ -23,6 +24,6 @@ flutter:
   plugin:
     platforms:
       web:
-        pluginClass: SodiumWeb
+        pluginClass: Sodium
         fileName: sodium_web.dart
 

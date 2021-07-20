@@ -22,7 +22,7 @@ void main() {
       final alg = 2;
 
       final hash =
-          SodiumWeb.instance.cryptoPwhash(outlen, passwd, salt, opslimit, memlimit, alg);
+          Sodium.cryptoPwhash(outlen, passwd, salt, opslimit, memlimit, alg);
       s='1011010110000110111101010101001001000110011101100111011110110100000011001110111110001001001011011001110111010100100101111000000';
       Uint8List res=new Uint8List(s.length);
             for(int i=0;i<s.length;i++){
