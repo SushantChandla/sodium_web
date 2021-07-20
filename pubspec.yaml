@@ -4,7 +4,7 @@ description: A new flutter plugin project for [libsodium](https://libsodium.gitb
 
 homepage: https://github.com/SushantChandla
 repository: https://github.com/SushantChandla/sodium_web
-version: 0.0.4
+version: 0.0.5
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
