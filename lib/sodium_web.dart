@@ -51,7 +51,7 @@ class Sodium {
 
   static KeyPair cryptoSignSeedKeypair(Uint8List seed) {
     final o = interop.crypto_sign_seed_keypair(seed);
-    return KeyPair(pk: o.privateKey, sk: o.publicKey);
+    return KeyPair(pk:o.publicKey , sk:o.privateKey );
   }
 }
 
