@@ -1,4 +1,3 @@
-import 'dart:js';
 import 'dart:typed_data';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 
