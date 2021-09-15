@@ -8,7 +8,7 @@ A new flutter plugin project for [libsodium](https://libsodium.gitbook.io/doc/) 
 
 Download the sodium.js file from [https://raw.githubusercontent.com/jedisct1/libsodium.js/master/dist/browsers-sumo/sodium.js](https://raw.githubusercontent.com/jedisct1/libsodium.js/master/dist/browsers-sumo/sodium.js)
 
-and add it to you flutter web directory. Then in your web/index.html add  
+and add it to your flutter web directory. Then in your web/index.html add  
 ```html
 <script src="sodium.js"></script>
 ```
